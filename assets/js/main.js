@@ -44,7 +44,8 @@ $(document).ready(function () {
 	 * JsonBird：https://bing.ioliu.cn/
 	 * 
 	 */
-	var url = 'https://bing.ioliu.cn/v1/?url=https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=8';
+	//var url = 'https://bird.ioliu.cn/v1/?url=https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=8';
+	var url = 'https://api.no0a.cn/api/bing/0';
 	var imgUrls = JSON.parse(sessionStorage.getItem("imgUrls"));
 	var index = sessionStorage.getItem("index");
 	var $panel = $('#panel');
